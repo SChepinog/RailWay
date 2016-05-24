@@ -43,15 +43,15 @@ under the License.
         </library>
       </orderEntry>
      -->  
-    <output url="file://$MODULE_DIR$/target/classes"/>  
-    <output-test url="file://$MODULE_DIR$/target/test-classes"/>  
-    <orderEntry type="module-library"> 
-      <library> 
+    <output url="file://$MODULE_DIR$/target/classes"/>
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>
+    <orderEntry type="module-library">
+      <library>
         <CLASSES>
           <root url="jar://C:/Users/Chepinog/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar!/"/>
         </CLASSES>
-      </library> 
-    </orderEntry> 
+      </library>
+    </orderEntry>
   </component>  
   <component name="ModuleRootManager"/>  
   <!-- If it's a war project:
@@ -70,18 +70,18 @@ under the License.
     </webroots>
   </component>
   -->  
-  <component name="WebModuleBuildComponent"> 
-    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/my-app"/> 
-  </component>  
-  <component name="WebModuleProperties"> 
-    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml"/>  
-    <webroots> 
-      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp"/>
-    </webroots>  
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/RailWay"/>
+  </component>
+  <component name="WebModuleProperties">
     <containerElement type="library" level="module">
       <attribute name="method" value="0"/>
       <attribute name="URI" value="/WEB-INF/lib/junit-3.8.1.jar"/>
       <url>jar://C:/Users/Chepinog/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar!/</url>
     </containerElement>
-  </component> 
+    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml"/>
+    <webroots>
+      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp"/>
+    </webroots>
+  </component>
 </module>
